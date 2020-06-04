@@ -45,7 +45,7 @@ def return_figures():
                             , center=dict(lat=40.71, lon=-74)
                             , zoom=8.9
                             , mapbox_style="open-street-map"
-                            , range_color=(0,5) 
+                            #, range_color=(0,5) 
                             , height=600
                           )
 
@@ -82,7 +82,7 @@ def return_figures():
                             , center=dict(lat=40.71, lon=-74)
                             , zoom=8.9
                             , mapbox_style="open-street-map"
-                            , range_color=(0,5)
+                            #, range_color=(0,5)
                             , height=600)
 
     fig_uncovered.add_trace(fig_hospitals_uncoloured.data[0])
