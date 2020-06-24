@@ -8,7 +8,6 @@ from wrangle_data import return_figures
 def index():
 
     figures = return_figures()
-    print(figures)
     # plot ids for the html id tag
     ids = ['figure-{}'.format(i) for i, _ in enumerate(figures)]
 
